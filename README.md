@@ -7,5 +7,3 @@
 ## Practic work ##
 - [ ] Create home works from "Learn JavaScript"
 - [ ] Create web site "Internet Stock"
-
-
