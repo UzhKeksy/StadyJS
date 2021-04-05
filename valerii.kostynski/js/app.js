@@ -1,6 +1,26 @@
-import {a} from './first.js';
-import {myFoo} from './foo.js';
+"use strict";
+
+// // alert('Hello');
 
 
-console.log('node---ok');
-console.log(myFoo(2,3));
+// // Variabes
+// // 1 task
+// let admin;
+// let name;
+// name = 'Djon';
+// admin = name;
+
+// alert(admin);
+
+// //2 task
+// let = ourPlanet; //ourPlanetName
+// let = activeUser; //currentUserName
+
+
+// 3 task
+// modal window
+
+// let username = prompt('What is your name?');
+// alert('Your name is ${username}');
+// console.log(username);
+

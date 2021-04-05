@@ -1,0 +1,16 @@
+.header {
+}
+.main {
+		// .main__block
+		&__block {}
+}
+.main-block {
+	background-color: #333333;
+		// .main-block__title
+		&__title {
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+		// .main-block__text
+		&__text {}
+}
