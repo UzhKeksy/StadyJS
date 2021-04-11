@@ -1,26 +1,15 @@
 "use strict";
 
-// // alert('Hello');
+const myCircle = document.getElementById('circle');
+const inputNumber = document.getElementById('inputNumber');
+const radiusMyCircle = myCircle.attributes.r.value;
+const circumference = 2 * Math.PI * radiusMyCircle;
 
+myCircle.style.strokeDasharray = ` ${circumference}` * 10;
 
-// // Variabes
-// // 1 task
-// let admin;
-// let name;
-// name = 'Djon';
-// admin = name;
+inputNumber.addEventListener('change', () => setProgress(inputNumber.value));
 
-// alert(admin);
-
-// //2 task
-// let = ourPlanet; //ourPlanetName
-// let = activeUser; //currentUserName
-
-
-// 3 task
-// modal window
-
-// let username = prompt('What is your name?');
-// alert('Your name is ${username}');
-// console.log(username);
-
+function setProgress(perecent) {
+	var offset = (circumference - perecent / 100 * circumference) * 10;
+	myCircle.style.strokeDashoffset = offset;
+}
